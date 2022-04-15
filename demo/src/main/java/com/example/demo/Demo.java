@@ -10,7 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import java.sql.SQLOutput;
 
 @SpringBootApplication
-public class Demo2 implements CommandLineRunner {
+public class Demo implements CommandLineRunner {
     @Autowired
     private ProductRepository repository;
     public static void main(String[] args) {
