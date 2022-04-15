@@ -14,7 +14,7 @@ public class Demo implements CommandLineRunner {
     @Autowired
     private ProductRepository repository;
     public static void main(String[] args) {
-        ConfigurableApplicationContext ct = SpringApplication.run(Demo2.class, args);
+        ConfigurableApplicationContext ct = SpringApplication.run(Demo.class, args);
     }
 
     @Override
